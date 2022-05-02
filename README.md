@@ -9,7 +9,7 @@ I started studying online and without previous knowledge on January 17, 2022, th
 * 🌍  I'm based in Tijuana, Mexico
 * ✉️  You can contact me at [emmanuelsanchgdev@gmail.com](mailto:emmanuelsanchgdev@gmail.com)
 * 🧠  I'm learning Javascript
-* ⚡  me encantan las enchiladas.
+* ⚡  I love enchiladas.
 
 <a href="https://www.twitter.com/EmmaSanchgDev" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/twitter/follow/EmmaSanchgDev?logo=twitter&style=for-the-badge&color=0891b2&labelColor=1c1917"
