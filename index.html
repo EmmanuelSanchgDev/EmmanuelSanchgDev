@@ -1,29 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
     <header>
-        <h1>Emmanuel Sanchg.</h1>
-        <nav>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </nav>
+      <h1>Emmanuel Sanchg.</h1>
+      <nav>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </nav>
     </header>
     <main>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+        praesentium quod illo beatae harum, eaque sequi consequatur nobis
+        quidem! Hic aut est magnam officia ducimus, earum laudantium pariatur
+        dicta sed?
+      </p>
+      <form name="contact" method="POST" data-netlify="true">
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi praesentium quod illo beatae harum, eaque sequi consequatur nobis quidem! Hic aut est magnam officia ducimus, earum laudantium pariatur dicta sed?
+          <label>Your Name: <input type="text" name="name" /></label>
         </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label
+            >Your Role:
+            <select name="role[]" multiple>
+              <option value="leader">Leader</option>
+              <option value="follower">Follower</option>
+            </select></label
+          >
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
     </main>
-</body>
+  </body>
 </html>
