@@ -3,36 +3,105 @@
     padding: 0;
     margin: 0;
 }
+html {
+    font-size: 62.5%;
+}
 body {
     min-width: 320px;
+    font-size: 1.6rem;
+
+    /* overflow: hidden; */
 }
+
 .header {
     height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
 
-    background-color: lightcoral;
+    background-color: #c6f8ff;
+}
+.header > .title {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+}
+.header-content__father {
+    width: 50%;
+    height: 90%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-
 }
-    .nav-bar {
-        width: 100%;
-        justify-self: flex-end;
+.header-content__top{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+    font-size: 2.2rem;
+}
+.header-content__top p:first-child span{
+    color: green;
+    font-size: 2.5rem;
+}
+.header-content__top p:last-child span{
+    font-size: 2.5rem;
+}
+.header-content__top p:last-child .one {
+    color: blue;
+}
+.header-content__top p:last-child .two {
+    color: #5b17ba;
+}
+.header-content__top p:last-child .three {
+    color: #cf562a;
+}
+.header-content__bottom{
+    height: 50%;
+}
+.nav {
+    width: 90%;
+    height: 5rem;
 
-        background-color: aquamarine;
-    }
-    .nav-bar__list {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 20px;
-    }
-    .nav-bar__list li {
-        list-style-type: none;
-    }
-    .nav-bar__list a {
-        text-decoration: none;
-        color: black;
-    }
-.main {
-    height: 500px;
+    background-color: #103783;
+}
+.nav-list{
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-list li {
+    width: 25%;
+    height: 100%;
+}
+.nav-list a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.nav-list a:hover {
+    background-color: #9bafd9;
+}
+.container-image {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-image img {
+    width: 60%;
+    border-radius: 50%;
 }
