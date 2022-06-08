@@ -47,7 +47,7 @@ li a {
     margin-top: 0;
 }
 
-.container-skills .title {
+.main .title {
     text-align: center;
 }
 
@@ -81,9 +81,6 @@ li a {
 .personal {
     display: flex;
     flex-direction: column;
-}
-.personal .title {
-    text-align: center;
 }
 
 .projects-cards {
