@@ -1,3 +1,12 @@
-[submodule "prueba/calculadora"]
-	path = prueba/calculadora
+[submodule "projects/calculadora"]
+	path = projects/calculadora
 	url = git@github.com:EmmanuelSanchgDev/calculadora.git
+[submodule "projects/frontend-fundamentals_login_project"]
+	path = projects/frontend-fundamentals_login_project
+	url = git@github.com:EmmanuelSanchgDev/frontend-fundamentals_login_project.git
+[submodule "projects/landing-pages"]
+	path = projects/landing-pages
+	url = git@github.com:EmmanuelSanchgDev/landing-pages.git
+[submodule "projects/nav-bar"]
+	path = projects/nav-bar
+	url = git@github.com:EmmanuelSanchgDev/nav-bar.git
