@@ -13,7 +13,9 @@ body {
     max-width: 85ch;
     padding: 8px;
 }
-
+a {
+    color: #000;
+}
 .header {
     padding: 2rem;
     display: flex;
@@ -51,7 +53,7 @@ li a {
     text-align: center;
 }
 
-.container-primary {
+.container-skills {
     display: flex;
     flex-flow: column wrap;
     /* gap: 10px; */
