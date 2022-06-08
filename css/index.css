@@ -44,6 +44,10 @@ li a {
     margin: 24px 0 24px 0;
 }
 
+.container-skills {
+    margin-top: 0;
+}
+
 .container-skills .title {
     text-align: center;
 }
@@ -85,9 +89,9 @@ li a {
 
 .projects-cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-flow: row wrap;
-    gap: 15px;
+    gap: 15px 0;
 }
 
 .card {
@@ -97,6 +101,9 @@ li a {
 }
 
 @media screen and (max-width: 550px) {
+    body {
+        min-width: 360px;
+    }
     .nav-bar {
         min-width: initial;
     }
