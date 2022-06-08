@@ -11,7 +11,7 @@ html {
 body {
     font-size: 1.6rem;
     max-width: 85ch;
-    padding: 8px;
+    padding: 0.8rem;
 }
 a {
     color: #000;
@@ -35,14 +35,15 @@ a {
 
 li a {
     text-decoration: none;
+    font-size: 2rem;
 }
 
 .main {
-    padding: 5px;
+    padding: 0.5rem;
 }
 
 .container {
-    margin: 24px 0 24px 0;
+    margin-top: 2.4rem;
 }
 
 .container-skills {
@@ -56,18 +57,16 @@ li a {
 .container-skills {
     display: flex;
     flex-flow: column wrap;
-    /* gap: 10px; */
-}
-
-.container-skill {
-    padding: 10px;
-    border: 1px solid;
-    border-radius: 20px;
 }
 
 .card-skill {
-    margin-bottom: 5px;
+    padding: 1rem;
+    border: 0.1rem solid;
+    border-radius: 2rem;
+    margin-bottom: 0.5rem;
 }
+
+
 
 .css {
     display: flex;
@@ -89,7 +88,7 @@ li a {
     display: flex;
     justify-content: space-evenly;
     flex-flow: row wrap;
-    gap: 15px 0;
+    gap: 1.5rem 0;
 }
 
 .card {

@@ -6,7 +6,7 @@ Web development online student
 
 I started studying online and without previous knowledge on January 17, 2022, the progress has been good and my short-term goal is to be better today than yesterday, as a developer and as a person.
 
-* 🌍  I'm based in Tijuana, Mexico
+* 🌍  I'm based in Mexicali, Mexico
 * ✉️  You can contact me at [emmanuelsanchgdev@gmail.com](mailto:emmanuelsanchgdev@gmail.com)
 * 🧠  I'm learning Javascript
 * ⚡  I love enchiladas.
