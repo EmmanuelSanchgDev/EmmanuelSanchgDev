@@ -110,4 +110,7 @@ li a {
     .nav-bar {
         min-width: initial;
     }
+    .nav-list li a {
+        font-size: 1.6rem;
+    }
 }
