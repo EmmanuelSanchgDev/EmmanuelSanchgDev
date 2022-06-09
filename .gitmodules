@@ -10,3 +10,6 @@
 [submodule "projects/nav-bar"]
 	path = projects/nav-bar
 	url = git@github.com:EmmanuelSanchgDev/nav-bar.git
+[submodule "projects/pagina-netflix"]
+	path = projects/pagina-netflix
+	url = git@github.com:EmmanuelSanchgDev/pagina-netflix.git
