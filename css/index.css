@@ -98,6 +98,10 @@ li a {
     flex-direction: column;
     align-items: center;
 }
+.imagen-project img {
+    width: 100%;
+    object-fit: contain;
+}
 
 @media screen and (max-width: 550px) {
     body {
