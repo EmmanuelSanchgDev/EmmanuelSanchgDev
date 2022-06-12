@@ -83,6 +83,9 @@ li a {
     display: flex;
     flex-direction: column;
 }
+.container-projects .title {
+    margin-bottom: 3rem;
+}
 
 .projects-cards {
     display: flex;
